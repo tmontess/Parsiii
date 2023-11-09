@@ -1,57 +1,51 @@
 <template>
-    <div>
-      <div class="header-card">
-        <div class="container-header-card">
-          <img src="../assets/imagenes/parsii baner.jpeg" alt="foto-equipos" width="100%">
-        </div>
+  <div>
+    <div class="header-card">
+      <div class="container-header-card">
+        <img src="../assets/imagenes/parsii baner.jpeg" alt="foto-equipos" width="100%">
       </div>
-      <div id="icon-menu">
-        <i class="fas fa-bars"></i>
-      </div>
-  
-      <div class="container-all" id="move-content">
-        <!-- Tu contenido principal aquí -->
-      </div>
-  
-      <main>
-        <div class="deportes-titles">
-          <h1>NUESTROS CLIENTES</h1>
-        </div>
-  
-        <section class="historia" id="container-aside">
-          <div class="clientes-grid">
-            <section class="historia" id="container-aside">
-    <div class="clientes-grid">
-        <div class="cliente-box">
-            <h2>Alvear Icon</h2>
-            <img src="../assets/imagenes/Alvearicon.jpeg" alt="Alvear Icon">
-            <p>Puerto Madero, Buenos Aires.</p>
-        </div>
-
-        <div class="cliente-box">
-            <h2>Alvear Palace</h2>
-            <img src="../assets/imagenes/palace-1.jpg" alt="Alvear Palace">
-            <p>Recoleta, Buenos Aires.</p>
-        </div>
-
-        <div class="cliente-box">
-            <h2>Sanatorio Otamendi</h2>
-            <img src="../assets/imagenes/el-sanatorio-otamendi.webp" alt="Sanatorio Otamendi">
-            <p>Recoleta, Buenos Aires.</p>
-        </div>
-
-        <div class="cliente-box">
-            <h2>Vuelta de Obligado 2237</h2>
-            <img src="../assets/imagenes/VUELTA-DE-OBLIGADO-2237-1-scaled.jpg" alt="Vuelta de Obligado 2237">
-            <p>Belgrano, Buenos Aires.</p>
-        </div>
     </div>
-</section>
-          </div>
-        </section>
-      </main>
-  
-      <footer class="footer">
+    <div id="icon-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="container-all" id="move-content">
+      <!-- Tu contenido principal aquí -->
+    </div>
+
+    <div class="deportes-titles">
+      <h1>NUESTROS CLIENTES</h1>
+    </div>
+
+    <section class="historia" id="container-aside">
+      <div class="clientes-grid">
+        <div class="cliente-box">
+          <h2>Alvear Icon</h2>
+          <img src="../assets/imagenes/Alvearicon.jpeg" alt="Alvear Icon">
+          <p>Puerto Madero, Buenos Aires.</p>
+        </div>
+
+        <div class="cliente-box">
+          <h2>Alvear Palace</h2>
+          <img src="../assets/imagenes/palace-1.jpg" alt="Alvear Palace">
+          <p>Recoleta, Buenos Aires.</p>
+        </div>
+
+        <div class="cliente-box">
+          <h2>Sanatorio Otamendi</h2>
+          <img src="../assets/imagenes/otamendii.png" alt="Sanatorio Otamendi">
+          <p>Recoleta, Buenos Aires.</p>
+        </div>
+
+        <div class="cliente-box">
+          <h2>Vuelta de Obligado 2237</h2>
+          <img src="../assets/imagenes/VUELTA-DE-OBLIGADO-2237-1-scaled.jpg" alt="Vuelta de Obligado 2237">
+          <p>Belgrano, Buenos Aires.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
       <div class="footer-content">
         <div class="footer-logo">
           <img src="../assets/imagenes/LOGO.png" alt="escudo" width="80px" height="80px">
@@ -77,8 +71,8 @@
 
 <style>
 .footer {
-  background-color: #333; /* Cambia el color de fondo a tu elección */
-  color: #fff; /* Cambia el color del texto a tu elección */
+  background-color: #333;
+  color: #fff;
   padding: 20px 0;
 }
 
@@ -122,75 +116,53 @@
   }
 }
 </style>
-  
-  <style scoped>
-  /* Estilos personalizados aquí */
-  
-  .header-card {
-    background-color: #004aad;
-    text-align: center;
-  }
-  
-  .container-header-card {
-    max-width: 100%;
-  }
-  
-  #icon-menu {
-    text-align: center;
-  }
-  
-  .deportes-titles {
-    background-color: #004aad;
-    color: #00bfff;
-    text-align: center;
-  }
-  
-  .clientes-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .cliente-box {
-    text-align: center;
-  }
-  
-  .cliente-box h2 {
-    font-size: 18px;
-  }
-  
-  .cliente-box img {
-    max-width: 100%;
-  }
-  
-  .footer-nav {
-    text-align: center;
-  }
-  
-  .title-footer {
-    font-size: 24px;
-    margin-top: 10px;
-  }
-  
-  .menu-footer ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .menu-footer li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  .p-footer {
-    margin-top: 20px;
-  }
-  </style>
-  
-  <script>
-  export default {
-  
-  }
-  </script>
-  
+
+<style scoped>
+.header-card {
+  background-color: #004aad;
+  text-align: center;
+}
+
+.container-header-card {
+  max-width: 100%;
+}
+
+#icon-menu {
+  text-align: center;
+}
+
+.deportes-titles {
+  background-color: #004aad;
+  color: #00bfff;
+  text-align: center;
+}
+
+.clientes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.cliente-box {
+  text-align: center;
+}
+
+.cliente-box h2 {
+  font-size: 18px;
+}
+
+.cliente-box img {
+  max-width: 100%;
+}
+
+.footer-nav {
+text-align: center;
+}
+</style>
+
+<script>
+export default {
+// Tu lógica de componentes aquí
+}
+</script>

@@ -32,13 +32,13 @@ const routes = [
     },
 
     {
-        path: '/ServiciosPage', //ruta para el componente de prueba
+        path: '/Servicios', //ruta para el componente de prueba
         name: 'ServiciosPage',
         component: ServiciosPage
     },
 
     {
-        path: '/ExperienciaPage', //ruta para el componente de prueba
+        path: '/Experiencia', //ruta para el componente de prueba
         name: 'ExperienciaPage',
         component: ExperienciaPage
     }

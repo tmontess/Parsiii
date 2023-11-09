@@ -13,13 +13,13 @@
           <router-link class="btn btn-primary" aria-current="page" to="/QuienesSomos">Quienes somos</router-link>
         </li>
         <li class="nav-item mx-2">
-          <router-link class="btn btn-primary" aria-current="page" to="/servicios">Servicios</router-link>
+          <router-link class="btn btn-primary" aria-current="page" to="/Servicios">Servicios</router-link>
         </li>
         <li class="nav-item mx-2">
           <router-link class="btn btn-primary" aria-current="page" to="/Clientes">Clientes</router-link>
         </li>
         <li class="nav-item mx-2">
-          <router-link class="btn btn-primary" aria-current="page" to="/QuienesSomos">Experiencia</router-link>
+          <router-link class="btn btn-primary" aria-current="page" to="/Experiencia">Experiencia</router-link>
         </li>
         <li class="nav-item">
           <router-link class="btn btn-success" to="/create">Contacto</router-link>
