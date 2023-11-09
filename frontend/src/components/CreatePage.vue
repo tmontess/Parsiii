@@ -1,13 +1,6 @@
 <template>
-  <h1>Página de Crear</h1>
+ <div>
+    <h1>Parsii</h1>
+ </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>
